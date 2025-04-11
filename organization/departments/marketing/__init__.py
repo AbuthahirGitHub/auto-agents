@@ -1,0 +1,3 @@
+"""
+Marketing department package initialization.
+""" 

@@ -1,0 +1,3 @@
+"""
+Marketing managers package initialization.
+""" 
