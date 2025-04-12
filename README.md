@@ -1,33 +1,41 @@
-# AI Video Creation System
+# AI Organization Management System
 
-An automated YouTube video creation system powered by multiple AI agents. This system creates engaging videos using Pexels stock footage with a single click.
+A sophisticated organization management system powered by AI agents. This system provides a framework for managing departments, agents, and quality assurance processes with a focus on scalability and efficiency.
 
-## AI Agents
+## System Components
 
-1. **Content Strategist Agent**
-   - Generates video concepts and themes
-   - Determines target audience and content strategy
-   - Creates video outlines and scripts
+1. **Base Classes** (in `organization/utils/`)
+   - `BaseAgent`: Abstract base class for all agents
+   - `BaseManager`: Abstract base class for all managers
+   - `BaseQAAgent`: Abstract base class for all QA agents
 
-2. **Video Searcher Agent**
-   - Searches and selects relevant stock videos from Pexels
-   - Ensures video quality and relevance
-   - Manages video metadata and licensing
+2. **Departments**
+   - **Marketing Department**
+     - `MarketingAgent`: Handles content creation, campaigns, market research, and social media tasks
+     - `MarketingManager`: Manages marketing strategy, budget allocation, and team coordination
+     - `MarketingQAAgent`: Reviews marketing content and campaigns with specific checklists
+   - **Production Department** (structure ready for implementation)
+   - **Content Department** (structure ready for implementation)
 
-3. **Script Writer Agent**
-   - Generates engaging scripts based on content strategy
-   - Creates voiceover scripts
-   - Optimizes for SEO and engagement
+## Features
 
-4. **Video Editor Agent**
-   - Combines selected videos
-   - Adds transitions and effects
-   - Handles video rendering and export
+- **Agent Management**
+  - Task assignment and tracking
+  - Performance metrics and reporting
+  - Skill development and knowledge base
+  - Asynchronous task processing
 
-5. **SEO & Metadata Agent**
-   - Generates optimized titles and descriptions
-   - Creates tags and metadata
-   - Suggests thumbnails and end screens
+- **Manager Capabilities**
+  - Department strategy development
+  - Budget allocation
+  - Team coordination
+  - Performance monitoring
+
+- **Quality Assurance**
+  - Task review and validation
+  - Quality scoring
+  - Issue tracking and suggestions
+  - Department-specific checklists
 
 ## Setup
 
@@ -36,39 +44,66 @@ An automated YouTube video creation system powered by multiple AI agents. This s
 pip install -r requirements.txt
 ```
 
-2. Create a `.env` file with your API keys:
-```
-PEXELS_API_KEY=your_pexels_api_key
-OPENAI_API_KEY=your_openai_api_key
-```
-
-3. Run the application:
+2. Run the test suite to verify the system:
 ```bash
-python main.py
+python test_organization.py
 ```
-
-## Usage
-
-1. Access the web interface at `http://localhost:8000`
-2. Enter your video topic or theme
-3. Click "Generate Video"
-4. Wait for the AI agents to create your video
-5. Download the final video
 
 ## Project Structure
 
 ```
-├── agents/
-│   ├── content_strategist.py
-│   ├── video_searcher.py
-│   ├── script_writer.py
-│   ├── video_editor.py
-│   └── seo_metadata.py
-├── utils/
-│   ├── video_processor.py
-│   ├── api_client.py
-│   └── config.py
-├── main.py
+├── organization/
+│   ├── utils/
+│   │   ├── base_agent.py
+│   │   ├── base_manager.py
+│   │   └── base_qa_agent.py
+│   ├── departments/
+│   │   ├── marketing/
+│   │   │   ├── agents/
+│   │   │   │   └── marketing_agent.py
+│   │   │   ├── managers/
+│   │   │   │   └── marketing_manager.py
+│   │   │   └── qa/
+│   │   │       └── marketing_qa_agent.py
+│   │   ├── production/
+│   │   └── content/
+│   └── vp/
+├── test_organization.py
 ├── requirements.txt
-└── .env
-``` 
+└── README.md
+```
+
+## Testing
+
+The system includes a comprehensive test suite (`test_organization.py`) that verifies:
+- Base class functionality
+- Marketing department components
+- Agent task processing
+- Manager operations
+- QA review processes
+
+Run the tests with:
+```bash
+python test_organization.py
+```
+
+## Dependencies
+
+- python-dotenv==1.0.0
+- pydantic==2.5.2
+- fastapi==0.104.1
+- uvicorn==0.24.0
+- python-multipart==0.0.6
+- requests==2.31.0
+
+## Contributing
+
+To add new departments or components:
+1. Create new agent/manager/QA classes inheriting from base classes
+2. Implement required abstract methods
+3. Add department-specific functionality
+4. Update tests to cover new components
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details. 
