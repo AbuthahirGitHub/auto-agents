@@ -1,3 +1,0 @@
-"""
-Departments package initialization.
-""" 

@@ -1,3 +1,0 @@
-"""
-Marketing QA package initialization.
-""" 

@@ -1,0 +1,102 @@
+2025-04-12 04:24:18,236 - test_organization - INFO - Starting organization tests...
+2025-04-12 04:24:18,236 - test_organization - INFO - Testing base classes...
+2025-04-12 04:24:18,236 - test_organization - ERROR - Error testing base classes: Can't instantiate abstract class BaseAgent without an implementation for abstract method 'process'
+2025-04-12 04:24:18,236 - test_organization - INFO - Testing MarketingAgent...
+2025-04-12 04:24:18,244 - Marketing.TestAgent - INFO - Initializing TestAgent agent in Marketing department as Marketing Specialist
+2025-04-12 04:24:18,244 - Marketing.Agent.TestAgent - INFO - Initializing marketing agent TestAgent
+2025-04-12 04:24:18,244 - test_organization - INFO - Created agent: TestAgent (Marketing Specialist) - Marketing Department
+2025-04-12 04:24:18,244 - Marketing.Agent.TestAgent - INFO - Processing marketing task of type: content_creation
+2025-04-12 04:24:19,487 - test_organization - INFO - Process result: {'success': True, 'content': {'id': 'content_20250412_042419', 'type': 'content_creation', 'topic': 'Test Topic', 'target_audience': ['Test Audience'], 'channel': 'Test Channel', 'format': '', 'tone': 'professional', 'keywords': [], 'call_to_action': '', 'created_at': '2025-04-12T04:24:19.487825'}, 'message': 'Content of type content_creation created successfully'}
+2025-04-12 04:24:19,495 - test_organization - INFO - Marketing metrics: {'campaigns_created': 0, 'target_audiences': ['Test Audience'], 'marketing_channels': ['Test Channel'], 'content_types': ['content_creation'], 'skills': {'content_creation': 0.8, 'social_media': 0.7, 'email_marketing': 0.75, 'seo': 0.65, 'analytics': 0.7, 'campaign_management': 0.75, 'market_research': 0.8, 'brand_management': 0.7}, 'recent_campaigns': []}
+2025-04-12 04:24:19,503 - test_organization - INFO - MarketingAgent test completed successfully
+2025-04-12 04:24:19,503 - test_organization - INFO - Testing MarketingManager...
+2025-04-12 04:24:19,503 - Marketing.Manager.TestManager - INFO - Initializing TestManager manager in Marketing department
+2025-04-12 04:24:19,511 - Marketing.Manager.TestManager - INFO - Initializing marketing manager TestManager
+2025-04-12 04:24:19,511 - test_organization - INFO - Created manager: TestManager (Marketing Manager) - Marketing Department
+2025-04-12 04:24:19,511 - Marketing.Manager.TestManager - INFO - Processing department task of type: strategy_development
+2025-04-12 04:24:19,519 - Marketing.Manager.TestManager - INFO - Updated team knowledge: current_strategy
+2025-04-12 04:24:19,527 - test_organization - INFO - Process department task result: {'success': True, 'strategy': {'id': 'strat_20250412_042419', 'name': 'Test Strategy', 'goals': ['Test Goal'], 'timeline': {'start_date': '', 'end_date': '', 'phases': []}, 'target_audiences': ['Test Audience'], 'channels': ['Test Channel'], 'budget': {}, 'success_metrics': [], 'created_at': '2025-04-12T04:24:19.519814'}, 'message': 'Marketing strategy Test Strategy developed successfully'}
+2025-04-12 04:24:19,527 - test_organization - INFO - Marketing metrics: {'active_strategies': 1, 'budget_allocations': 0, 'performance_reviews': 0, 'team_size': 0, 'qa_team_size': 0, 'pending_tasks': 0, 'completed_tasks': 0, 'team_performance': {'manager': 'TestManager', 'department': 'Marketing', 'metrics': {'tasks_assigned': 0, 'tasks_completed': 0, 'average_completion_time': 0.0, 'team_efficiency': 0.0}, 'agents': {}, 'qa_agents': {}, 'pending_tasks': 0, 'completed_tasks': 0, 'approved_tasks': 0, 'rejected_tasks': 0}}
+2025-04-12 04:24:19,543 - test_organization - INFO - MarketingManager test completed successfully
+2025-04-12 04:24:19,543 - test_organization - INFO - All tests completed successfully!
+2025-04-12 04:25:46,400 - test_organization - INFO - Starting organization tests...
+2025-04-12 04:25:46,400 - test_organization - INFO - Testing base classes...
+2025-04-12 04:25:46,400 - test_organization - ERROR - Error testing base classes: Can't instantiate abstract class BaseAgent without an implementation for abstract method 'process'
+2025-04-12 04:25:46,408 - test_organization - INFO - Testing MarketingAgent...
+2025-04-12 04:25:46,408 - Marketing.TestAgent - INFO - Initializing TestAgent agent in Marketing department as Marketing Specialist
+2025-04-12 04:25:46,408 - Marketing.Agent.TestAgent - INFO - Initializing marketing agent TestAgent
+2025-04-12 04:25:46,408 - test_organization - INFO - Created agent: TestAgent (Marketing Specialist) - Marketing Department
+2025-04-12 04:25:46,408 - Marketing.Agent.TestAgent - INFO - Processing marketing task of type: content_creation
+2025-04-12 04:25:48,317 - test_organization - INFO - Process result: {'success': True, 'content': {'id': 'content_20250412_042548', 'type': 'content_creation', 'topic': 'Test Topic', 'target_audience': ['Test Audience'], 'channel': 'Test Channel', 'format': '', 'tone': 'professional', 'keywords': [], 'call_to_action': '', 'created_at': '2025-04-12T04:25:48.317982'}, 'message': 'Content of type content_creation created successfully'}
+2025-04-12 04:25:48,373 - test_organization - INFO - Marketing metrics: {'campaigns_created': 0, 'target_audiences': ['Test Audience'], 'marketing_channels': ['Test Channel'], 'content_types': ['content_creation'], 'skills': {'content_creation': 0.8, 'social_media': 0.7, 'email_marketing': 0.75, 'seo': 0.65, 'analytics': 0.7, 'campaign_management': 0.75, 'market_research': 0.8, 'brand_management': 0.7}, 'recent_campaigns': []}
+2025-04-12 04:25:48,405 - test_organization - INFO - MarketingAgent test completed successfully
+2025-04-12 04:25:48,405 - test_organization - INFO - Testing MarketingManager...
+2025-04-12 04:25:48,444 - Marketing.Manager.TestManager - INFO - Initializing TestManager manager in Marketing department
+2025-04-12 04:25:48,452 - Marketing.Manager.TestManager - INFO - Initializing marketing manager TestManager
+2025-04-12 04:25:48,468 - test_organization - INFO - Created manager: TestManager (Marketing Manager) - Marketing Department
+2025-04-12 04:25:48,500 - Marketing.Manager.TestManager - INFO - Processing department task of type: strategy_development
+2025-04-12 04:25:48,525 - Marketing.Manager.TestManager - INFO - Updated team knowledge: current_strategy
+2025-04-12 04:25:48,541 - test_organization - INFO - Process department task result: {'success': True, 'strategy': {'id': 'strat_20250412_042548', 'name': 'Test Strategy', 'goals': ['Test Goal'], 'timeline': {'start_date': '', 'end_date': '', 'phases': []}, 'target_audiences': ['Test Audience'], 'channels': ['Test Channel'], 'budget': {}, 'success_metrics': [], 'created_at': '2025-04-12T04:25:48.525776'}, 'message': 'Marketing strategy Test Strategy developed successfully'}
+2025-04-12 04:25:48,565 - test_organization - INFO - Marketing metrics: {'active_strategies': 1, 'budget_allocations': 0, 'performance_reviews': 0, 'team_size': 0, 'qa_team_size': 0, 'pending_tasks': 0, 'completed_tasks': 0, 'team_performance': {'manager': 'TestManager', 'department': 'Marketing', 'metrics': {'tasks_assigned': 0, 'tasks_completed': 0, 'average_completion_time': 0.0, 'team_efficiency': 0.0}, 'agents': {}, 'qa_agents': {}, 'pending_tasks': 0, 'completed_tasks': 0, 'approved_tasks': 0, 'rejected_tasks': 0}}
+2025-04-12 04:25:48,605 - test_organization - INFO - MarketingManager test completed successfully
+2025-04-12 04:25:48,620 - test_organization - INFO - Testing MarketingQAAgent...
+2025-04-12 04:25:48,628 - test_organization - ERROR - Error testing MarketingQAAgent: Can't instantiate abstract class MarketingQAAgent without an implementation for abstract method 'process'
+2025-04-12 04:25:48,636 - test_organization - ERROR - Some tests failed!
+2025-04-12 04:26:42,515 - test_organization - INFO - Starting organization tests...
+2025-04-12 04:26:42,515 - test_organization - INFO - Testing base classes...
+2025-04-12 04:26:42,523 - test_organization - ERROR - Error testing base classes: Can't instantiate abstract class BaseAgent without an implementation for abstract method 'process'
+2025-04-12 04:26:42,523 - test_organization - INFO - Testing MarketingAgent...
+2025-04-12 04:26:42,523 - Marketing.TestAgent - INFO - Initializing TestAgent agent in Marketing department as Marketing Specialist
+2025-04-12 04:26:42,523 - Marketing.Agent.TestAgent - INFO - Initializing marketing agent TestAgent
+2025-04-12 04:26:42,523 - test_organization - INFO - Created agent: TestAgent (Marketing Specialist) - Marketing Department
+2025-04-12 04:26:42,523 - Marketing.Agent.TestAgent - INFO - Processing marketing task of type: content_creation
+2025-04-12 04:26:44,386 - test_organization - INFO - Process result: {'success': True, 'content': {'id': 'content_20250412_042644', 'type': 'content_creation', 'topic': 'Test Topic', 'target_audience': ['Test Audience'], 'channel': 'Test Channel', 'format': '', 'tone': 'professional', 'keywords': [], 'call_to_action': '', 'created_at': '2025-04-12T04:26:44.386489'}, 'message': 'Content of type content_creation created successfully'}
+2025-04-12 04:26:44,432 - test_organization - INFO - Marketing metrics: {'campaigns_created': 0, 'target_audiences': ['Test Audience'], 'marketing_channels': ['Test Channel'], 'content_types': ['content_creation'], 'skills': {'content_creation': 0.8, 'social_media': 0.7, 'email_marketing': 0.75, 'seo': 0.65, 'analytics': 0.7, 'campaign_management': 0.75, 'market_research': 0.8, 'brand_management': 0.7}, 'recent_campaigns': []}
+2025-04-12 04:26:44,464 - test_organization - INFO - MarketingAgent test completed successfully
+2025-04-12 04:26:44,464 - test_organization - INFO - Testing MarketingManager...
+2025-04-12 04:26:44,480 - Marketing.Manager.TestManager - INFO - Initializing TestManager manager in Marketing department
+2025-04-12 04:26:44,480 - Marketing.Manager.TestManager - INFO - Initializing marketing manager TestManager
+2025-04-12 04:26:44,496 - test_organization - INFO - Created manager: TestManager (Marketing Manager) - Marketing Department
+2025-04-12 04:26:44,496 - Marketing.Manager.TestManager - INFO - Processing department task of type: strategy_development
+2025-04-12 04:26:44,506 - Marketing.Manager.TestManager - INFO - Updated team knowledge: current_strategy
+2025-04-12 04:26:44,506 - test_organization - INFO - Process department task result: {'success': True, 'strategy': {'id': 'strat_20250412_042644', 'name': 'Test Strategy', 'goals': ['Test Goal'], 'timeline': {'start_date': '', 'end_date': '', 'phases': []}, 'target_audiences': ['Test Audience'], 'channels': ['Test Channel'], 'budget': {}, 'success_metrics': [], 'created_at': '2025-04-12T04:26:44.506993'}, 'message': 'Marketing strategy Test Strategy developed successfully'}
+2025-04-12 04:26:44,515 - test_organization - INFO - Marketing metrics: {'active_strategies': 1, 'budget_allocations': 0, 'performance_reviews': 0, 'team_size': 0, 'qa_team_size': 0, 'pending_tasks': 0, 'completed_tasks': 0, 'team_performance': {'manager': 'TestManager', 'department': 'Marketing', 'metrics': {'tasks_assigned': 0, 'tasks_completed': 0, 'average_completion_time': 0.0, 'team_efficiency': 0.0}, 'agents': {}, 'qa_agents': {}, 'pending_tasks': 0, 'completed_tasks': 0, 'approved_tasks': 0, 'rejected_tasks': 0}}
+2025-04-12 04:26:44,515 - test_organization - INFO - MarketingManager test completed successfully
+2025-04-12 04:26:44,515 - test_organization - INFO - Testing MarketingQAAgent...
+2025-04-12 04:26:44,523 - Marketing.TestQAAgent - INFO - Initializing TestQAAgent agent in Marketing department as QA
+2025-04-12 04:26:44,523 - Marketing.QA.TestQAAgent - INFO - Initializing TestQAAgent QA agent in Marketing department
+2025-04-12 04:26:44,531 - Marketing.QA.TestQAAgent - INFO - Initializing marketing QA agent TestQAAgent
+2025-04-12 04:26:44,531 - test_organization - INFO - Created QA agent: TestQAAgent (Marketing QA) - Marketing Department
+2025-04-12 04:26:44,539 - Marketing.QA.TestQAAgent - INFO - Processing QA task for marketing content
+2025-04-12 04:26:44,547 - test_organization - ERROR - Error testing MarketingQAAgent: BaseQAAgent.review_task() missing 1 required positional argument: 'result'
+2025-04-12 04:26:44,547 - test_organization - ERROR - Some tests failed!
+2025-04-12 04:27:21,043 - test_organization - INFO - Starting organization tests...
+2025-04-12 04:27:21,043 - test_organization - INFO - Testing base classes...
+2025-04-12 04:27:21,043 - test_organization - ERROR - Error testing base classes: Can't instantiate abstract class BaseAgent without an implementation for abstract method 'process'
+2025-04-12 04:27:21,051 - test_organization - INFO - Testing MarketingAgent...
+2025-04-12 04:27:21,051 - Marketing.TestAgent - INFO - Initializing TestAgent agent in Marketing department as Marketing Specialist
+2025-04-12 04:27:21,051 - Marketing.Agent.TestAgent - INFO - Initializing marketing agent TestAgent
+2025-04-12 04:27:21,051 - test_organization - INFO - Created agent: TestAgent (Marketing Specialist) - Marketing Department
+2025-04-12 04:27:21,051 - Marketing.Agent.TestAgent - INFO - Processing marketing task of type: content_creation
+2025-04-12 04:27:22,906 - test_organization - INFO - Process result: {'success': True, 'content': {'id': 'content_20250412_042722', 'type': 'content_creation', 'topic': 'Test Topic', 'target_audience': ['Test Audience'], 'channel': 'Test Channel', 'format': '', 'tone': 'professional', 'keywords': [], 'call_to_action': '', 'created_at': '2025-04-12T04:27:22.906487'}, 'message': 'Content of type content_creation created successfully'}
+2025-04-12 04:27:22,906 - test_organization - INFO - Marketing metrics: {'campaigns_created': 0, 'target_audiences': ['Test Audience'], 'marketing_channels': ['Test Channel'], 'content_types': ['content_creation'], 'skills': {'content_creation': 0.8, 'social_media': 0.7, 'email_marketing': 0.75, 'seo': 0.65, 'analytics': 0.7, 'campaign_management': 0.75, 'market_research': 0.8, 'brand_management': 0.7}, 'recent_campaigns': []}
+2025-04-12 04:27:22,906 - test_organization - INFO - MarketingAgent test completed successfully
+2025-04-12 04:27:22,914 - test_organization - INFO - Testing MarketingManager...
+2025-04-12 04:27:22,922 - Marketing.Manager.TestManager - INFO - Initializing TestManager manager in Marketing department
+2025-04-12 04:27:22,922 - Marketing.Manager.TestManager - INFO - Initializing marketing manager TestManager
+2025-04-12 04:27:22,922 - test_organization - INFO - Created manager: TestManager (Marketing Manager) - Marketing Department
+2025-04-12 04:27:22,930 - Marketing.Manager.TestManager - INFO - Processing department task of type: strategy_development
+2025-04-12 04:27:22,934 - Marketing.Manager.TestManager - INFO - Updated team knowledge: current_strategy
+2025-04-12 04:27:22,934 - test_organization - INFO - Process department task result: {'success': True, 'strategy': {'id': 'strat_20250412_042722', 'name': 'Test Strategy', 'goals': ['Test Goal'], 'timeline': {'start_date': '', 'end_date': '', 'phases': []}, 'target_audiences': ['Test Audience'], 'channels': ['Test Channel'], 'budget': {}, 'success_metrics': [], 'created_at': '2025-04-12T04:27:22.934308'}, 'message': 'Marketing strategy Test Strategy developed successfully'}
+2025-04-12 04:27:22,942 - test_organization - INFO - Marketing metrics: {'active_strategies': 1, 'budget_allocations': 0, 'performance_reviews': 0, 'team_size': 0, 'qa_team_size': 0, 'pending_tasks': 0, 'completed_tasks': 0, 'team_performance': {'manager': 'TestManager', 'department': 'Marketing', 'metrics': {'tasks_assigned': 0, 'tasks_completed': 0, 'average_completion_time': 0.0, 'team_efficiency': 0.0}, 'agents': {}, 'qa_agents': {}, 'pending_tasks': 0, 'completed_tasks': 0, 'approved_tasks': 0, 'rejected_tasks': 0}}
+2025-04-12 04:27:22,950 - test_organization - INFO - MarketingManager test completed successfully
+2025-04-12 04:27:22,950 - test_organization - INFO - Testing MarketingQAAgent...
+2025-04-12 04:27:22,950 - Marketing.TestQAAgent - INFO - Initializing TestQAAgent agent in Marketing department as QA
+2025-04-12 04:27:22,958 - Marketing.QA.TestQAAgent - INFO - Initializing TestQAAgent QA agent in Marketing department
+2025-04-12 04:27:22,958 - Marketing.QA.TestQAAgent - INFO - Initializing marketing QA agent TestQAAgent
+2025-04-12 04:27:22,974 - test_organization - INFO - Created QA agent: TestQAAgent (Marketing QA) - Marketing Department
+2025-04-12 04:27:22,974 - Marketing.QA.TestQAAgent - INFO - Processing QA task for marketing content
+2025-04-12 04:27:22,974 - Marketing.QA.TestQAAgent - INFO - Reviewing marketing task of type: content_creation
+2025-04-12 04:27:22,982 - test_organization - INFO - Process result: {'success': True, 'review': {'issues': [{'passed': False, 'severity': 'high', 'description': "Content tone 'professional' should match brand voice guidelines"}, {'passed': False, 'severity': 'high', 'description': 'Call-to-action is required'}], 'suggestions': [{'passed': False, 'severity': 'medium', 'description': 'Keywords should be specified for SEO'}], 'passed': False}, 'quality_score': 0.0, 'message': 'QA review completed successfully'}
+2025-04-12 04:27:22,982 - test_organization - INFO - MarketingQAAgent test completed successfully
+2025-04-12 04:27:22,982 - test_organization - INFO - All tests completed successfully!
